@@ -1,12 +1,21 @@
 <template>
-  <div class="container">
-    <div>
-      <h1 class="title">15-radical-minutes</h1>
-      <h2 class="subtitle">With Michael Williams & Cody McGraw</h2>
-      <p>Join us on Clubhouse for 15 radical minutes with some of today's most inspiring thought leaders, builders, and innovators.</p>
-      <br>
-      <p>Follow @15radicalminutes on twitter to see when we're live next!</p>
+  <div>
+    <div class="container">
+      <div>
+        <h1 class="text-indigo-900 text-6xl font-bold my-5">
+          15 Radical Minutes
+        </h1>
+        <p class="text-gray-600 text-xl">with</p>
+        <h2 class="text-gray-600 text-4xl my-2 mb-14">Michael & Cody</h2>
+        <p>
+          Join us on Clubhouse for 15 radical minutes with some of today's most
+          inspiring thought leaders, builders, and innovators.
+        </p>
+        <br />
+        <p>Follow <a href="https://twitter.com/15radicalmins" class="text-blue-500">@15radicalminutes</a> on twitter to see when we're live next!</p>
+      </div>
     </div>
+    <PreviousGuests class="max-w-6xl mx-auto" />
   </div>
 </template>
 
@@ -24,11 +33,13 @@ export default Vue.extend({})
 */
 .container {
   margin: 0 auto;
-  min-height: 100vh;
+  min-height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  @apply px-4;
+  @apply max-w-6xl;
 }
 
 .title {
