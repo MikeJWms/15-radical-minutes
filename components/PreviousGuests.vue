@@ -26,6 +26,16 @@ export default Vue.extend({
     return {
       previousGuests: [
         {
+          picturePath: require('@/assets/michael_ronen.jpg'),
+          name: 'Michael Ronen',
+          title: 'Experience Designer & Clubhouse Moderator',
+        },
+        {
+          picturePath: require('@/assets/Kyle_Kaminsky_400x400.jpg'),
+          name: 'Kyle Kaminsky',
+          title: 'Actor & Clubhouse Moderator',
+        },
+        {
           picturePath: require('@/assets/sam_adams_400x400.jpg'),
           name: 'Sam Adams',
           title: 'Former Mayor, Portland, OR',
